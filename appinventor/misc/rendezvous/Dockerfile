@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210114
 MAINTAINER Jeffrey I. Schiller <jis@mit.edu>
 RUN apt-get update && \
     apt-get install -y memcached nano-tiny nodejs nodejs-legacy npm sqlite3 supervisor
